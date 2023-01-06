@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  background-color: rgb(36, 96, 12);
+}
+.header .mobile {
+  margin-left: 200px;
+  margin-right: 10px;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+.header .gmail {
+  font-family: "Montserrat";
+  font-size: 12px;
+  margin-right: 150px;
+}
+.header h5 {
+  font-family: "Montserrat";
+  margin-right: 90px;
+}
+.header p {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 700;
+}
+.header .icons {
+  margin-left: 10px;
+}
+.header .icons i {
+  margin-right: 5px;
+}
+
+.menu {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 200px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 70px;
+}
+.menu .logo {
+  margin-right: 200px;
+}
+.menu .home {
+  display: flex;
+  margin-right: 70px;
+}
+.menu .home li {
+  list-style: none;
+  margin-right: 10px;
+}
+.menu .home li a {
+  text-decoration: none;
+}
+.menu span {
+  display: flex;
+  margin-right: 40px;
+  color: rgb(0, 174, 174);
+}
+.menu .icons i {
+  margin-right: 10px;
+  color: rgb(0, 174, 174);
+}
+
+.info {
+  display: flex;
+  margin-left: 200px;
+  padding-top: 20px;
+  font-family: "Montserrat";
+}
+.info .left img {
+  margin-right: 100px;
+}
+.info .right .title {
+  font-size: 30px;
+}
+.info .right .review {
+  display: flex;
+}
+.info .right .review ul {
+  display: flex;
+}
+.info .right .review ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+.info .right .review ul li i {
+  color: rgb(189, 189, 54);
+}
+.info .right .review p {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.info .right h4 {
+  margin-top: 40px;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.info .right .lorem {
+  margin-top: 30px;
+  width: 400px;
+  font-size: 12px;
+}
+.info .right hr {
+  margin-top: 30px;
+}
+.info .right .circles {
+  margin-top: 20px;
+  display: flex;
+}
+.info .right .circles .circle-1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+.info .right .circles .circle-2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: rgb(0, 145, 255);
+  border-radius: 50%;
+}
+.info .right .circles .circle-3 {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: rgb(245, 70, 12);
+  border-radius: 50%;
+}
+.info .right .circles .circle-4 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(85, 255, 0);
+  border-radius: 50%;
+}
+.info .right .submit {
+  display: flex;
+  padding-top: 50px;
+}
+.info .right .submit button {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Montserrat";
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(36, 172, 250);
+}
+.info .right .submit button:hover {
+  cursor: pointer;
+}
+.info .right .submit ul {
+  display: flex;
+  margin-left: 50px;
+}
+.info .right .submit ul li {
+  list-style: none;
+  padding-top: 15px;
+}
+.info .right .submit ul li a i {
+  margin-right: 20px;
+  color: aqua;
+}
+
+.advertisement {
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  background: #fafafa;
+}
+.advertisement ul {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.advertisement ul li {
+  list-style: none;
+  margin-top: -30px;
+}
+.advertisement ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.info-product {
+  display: flex;
+  padding-top: 30px;
+  font-family: "Montserrat";
+}
+.info-product .img {
+  margin-left: 200px;
+}
+.info-product .info-1 {
+  display: block;
+}
+.info-product .info-1 h3 {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.info-product .info-1 p {
+  width: 450px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.info-product .info-2 {
+  display: block;
+}
+.info-product .info-2 .first {
+  margin-bottom: 20px;
+}
+.info-product .info-2 h3 {
+  margin-left: 50px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.info-product .info-2 p {
+  width: 350px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+.products {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.products .title {
+  font-family: "Montserrat";
+  margin-bottom: 30px;
+}
+.products hr {
+  margin-bottom: 40px;
+  width: 1200px;
+}
+.products .plates {
+  display: grid;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  font-family: "Montserrat";
+}
+.products .plates .price {
+  color: rgb(2, 121, 94);
+  font-weight: 700;
+}
+
+.icon {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  background-color: #e9e6e6;
+  display: flex;
+  justify-content: center;
+}
+.icon img {
+  margin-right: 50px;
+  padding-top: 20px;
+}
+
+footer {
+  margin-left: 200px;
+  margin-top: 30px;
+}
+footer .title {
+  display: flex;
+  font-size: 20px;
+}
+footer .title h3 {
+  font-family: "Montserrat";
+}
+footer .title .social {
+  display: flex;
+  margin-left: 900px;
+}
+footer .title .social i {
+  margin-right: 10px;
+  color: rgb(5, 140, 140);
+}
+footer .line {
+  margin-top: 15px;
+  width: 1100px;
+  height: 0.5px;
+  background-color: #000;
+}
+footer .infos {
+  display: flex;
+  margin-top: 20px;
+  font-family: "Montserrat";
+}
+footer .infos ul {
+  margin-right: 60px;
+}
+footer .infos ul p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer .infos ul .email {
+  display: flex;
+  height: 50px;
+}
+footer .infos ul .email .txt {
+  border: none;
+  background-color: #d6d1d1;
+}
+footer .infos ul .email .button {
+  width: 100px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(0, 125, 125);
+  border: none;
+  color: #fff;
+}
+footer .infos ul li {
+  list-style: none;
+  line-height: 40px;
+}
+footer .infos ul li a {
+  text-decoration: none;
+  color: #000;
+}
+footer .infos ul li a h3 {
+  margin-bottom: 20px;
+}
+footer .made p {
+  font-family: "Montserrat";
+  padding-top: 40px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
